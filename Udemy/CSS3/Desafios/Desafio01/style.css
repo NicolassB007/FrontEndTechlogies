@@ -1,6 +1,7 @@
 /* Formatações Gerais*/
 
 body {
+    background-color: #d2d2c1;
     background-image: url('images/fundo.png');
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 16px;
@@ -9,28 +10,16 @@ body {
 
 /* Formatação Navegação */
 #navegation {
-    background-color: rgba(128, 128, 128, 0.60);
+    background-color: #c5c5b2;
     text-align: center;
-}
-
-#navegation a{
-    color: #ffffff;
-    font-size: 1.5em;
-    text-decoration: none;
-    padding: 15px;
+    padding: 10px;
 }
 
 /* Formatação Conteúdo */
 
 #conteudo {
-    background-color: #ffffff;
+    background-color: #e8e8d9;
     margin: 0;
-}
-
-#conteudo h2 {
-    font-size: 1.5em;
-    margin: 0;
-    padding: 10px;
 }
 
 #conteudo p {
@@ -41,13 +30,7 @@ body {
 /* CAMPANHA PUBLICITÁRIA */
 
 #conteudoCampanha {
-    background-color: #ffffff;
-}
-
-#conteudoCampanha h2 {
-    font-size: 1.5em;
-    margin: 0;
-    padding: 10px;
+    background-color: #e8e8d9;
 }
 
 #conteudoCampanha p {
@@ -65,13 +48,7 @@ body {
 /* CONTATO */
 
 #conteudoContato {
-    background-color: #ffffff;
-}
-
-#conteudoContato h2 {
-    font-size: 1.5em;
-    margin: 0;
-    padding: 10px;
+    background-color: #e8e8d9;
 }
 
 #conteudoContato p {
@@ -89,4 +66,20 @@ body {
     border-right-width: 5px;
     border-right-style: outset;
     border-right-color: rgba(128, 128, 128, 0.312);
+}
+
+/* Formatação Geral */
+
+h1 {
+    color: #828271;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 10px;
+}
+
+a{
+    color: #ffffff;
+    font-size: 1.5em;
+    text-decoration: none;
+    padding: 10px;
 }
