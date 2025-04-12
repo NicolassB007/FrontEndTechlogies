@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+   <head>
+
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Seletor de Atributo</title>
+       <style>
+            [title~="Netflix"] {
+                color: aqua;
+            }
+
+            /* Prefixo */
+            [href^="http://"] {
+                color: gainsboro;
+            }
+
+            /* Sufixo */
+            [href$="login"] {
+                color: black;
+            }
+       </style>
+   </head>
+
+   <body>
+
+        <div>
+
+            <ul>
+
+                <li>
+                    <a href="https://www.netflix.comlogin" title="Link Netflix">Netflix</a>
+                </li>
+
+                <li>
+                    <a href="http://login" title="Link PrimeVideo">PrimeVideo</a>
+                </li>
+
+                <li>
+                    <a href="#" title="Link para o Spotify">Spotify</a>
+                </li>
+
+                <li>
+                    <a href="#login" tile="Link para o Disney Plus">Disney Plus</a>
+                </li>
+
+            </ul>
+
+        </div>    
+
+   </body>
+</html>
