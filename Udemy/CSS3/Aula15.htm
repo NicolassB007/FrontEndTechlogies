@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Posicionamento -> Static, Relative, Absolute, e Fixed</title>
+
+        <style>
+            body {
+                background-color: #007fc7;
+            }
+
+            #container {
+                background-color: #FFF;
+                width: 800px;
+                margin: 0 auto;
+                padding: 10px;
+            }
+
+            h1 {
+                position: static;
+            }
+
+            p {
+                width: 300px;
+            }
+
+            .relative {
+                border: 1px solid red;
+                position: relative;
+                /* Propriedades de deslocamento 
+                    top, right, botton e left
+                */
+                top: 20px;
+                left: 80px;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <div id="container">
+            <h1>Posicionamentos</h1>
+            <p>
+                <b>P1</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda debitis blanditiis reprehenderit vitae consequatur sed ea repellendus, porro asperiores nemo sequi odit harum. Rem quaerat, nostrum quisquam fugiat aspernatur illum.
+            </p>
+            <p class="relative">
+                <b>P2</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda debitis blanditiis reprehenderit vitae consequatur sed ea repellendus, porro asperiores nemo sequi odit harum. Rem quaerat, nostrum quisquam fugiat aspernatur illum.
+            </p>
+            <p>
+                <b>P3</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda debitis blanditiis reprehenderit vitae consequatur sed ea repellendus, porro asperiores nemo sequi odit harum. Rem quaerat, nostrum quisquam fugiat aspernatur illum.
+            </p>
+        </div>
+
+    </body>
+
+</html>
