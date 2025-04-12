@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Trabalhando com Tabelas (trs)- DIO.me</title>
+       <style>
+
+        table {
+            border: 1px solid black;
+        }
+
+        thead th {
+            background-color: blanchedalmond;
+            padding: 3px;
+            font-size: 13px;
+        }
+
+        tbody tr:nth-child(even) td {
+            background-color: coral;
+            cursor: pointer;
+        }
+
+        tbody tr:hover td {
+            background-color: rgba(0, 0, 0, 0.41);
+        }
+
+        tbody td {
+            text-align: center;
+        }
+
+        tfoot td {
+            background-color: bisque;
+        }
+       </style>
+   </head>
+   <body>
+
+        <!-- tr -> Table Row -->
+        <!-- td -> Table Data  -->
+       <table summary="Tabela de Nome e Idade de alunos" cellspacing="0" align="center">
+
+            <caption>
+                Tabela de Nomes e Idades de alunos
+            </caption>
+
+            <thead>
+                <tr>
+                    <th colspan="2">Minha Tabela</th>
+                </tr>
+                <tr>
+                    <th title="Nome Completo">
+                        Nome:
+                    </th>
+                    <th>
+                        Idade:
+                    </th>
+                </tr>
+           </thead>   
+
+           <tbody>
+               <tr>
+                   <td>Nicolas</td>
+                   <td>17</td>
+               </tr>
+               <tr>
+                   <td>Marcos</td>
+                   <td>16</td>
+               </tr>
+               <tr>
+                   <td>Pietro</td>
+                   <td>16</td>
+               </tr>
+               <tr>
+                   <td>Rafael Romano</td>
+                   <td>16</td>
+               </tr>
+               <tr>
+                   <td>Japa</td>
+                   <td>16</td>
+               </tr>
+           </tbody>
+
+           <tfoot>
+                <tr>
+                    <td>Total: </td>
+                    <td>5</td>
+                </tr>
+           </tfoot>
+       </table>
+   </body>
+</html>
