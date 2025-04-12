@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Estilizando links</title>
+
+        <style>
+            body {
+                background-color: #007fc7;
+            }
+
+            #container {
+                width: 800px;
+                margin: 0 auto;
+                padding: 10px;
+                position: relative;
+            }
+
+            a {
+                padding: 10px;
+                text-decoration: none;
+            }
+
+            /* Estados dos links: Link Não Visitado */
+            a:link, a:visited {
+                color: #b9c941;
+            }
+
+            /* Estados dos links: Link Visitado */
+            /* a:visited {
+                color: #c0c0c0;
+            } */
+
+            /* Estados dos links: Link Hover, quando o cursor passa sobre o link */
+            a:hover {
+                color: #FFF;
+                background-color: aqua;
+            }
+
+             /* Estados dos links: Link Hover, quando o cursor passa sobre o link */
+            a:active {
+                color: #e4f371;
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+        <a href="#">Google</a> |
+
+        <a href="#">Curiosidade</a> |
+
+        <a href="www.com.on">Outro Site</a> |
+
+        <a href="#">TechMundo</a>
+
+    </body>
+
+</html>
