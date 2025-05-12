@@ -1,0 +1,74 @@
+/* Formatações Gerais */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Cabeçalho (Header) */
+#header {
+    margin-top: 10px;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+}
+
+#logo h1 {
+    font-family: 1.5em;
+    margin-left: 10px;
+}
+
+#navegation {
+    margin-left: 20px;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+#navegation ul {
+    list-style-type: none;
+    font-weight: bold;
+}
+
+#navegation ul li {
+    display: inline;
+    padding: 10px;
+}
+
+#navegation ul li a {
+    text-decoration: none;
+    color: #22a4ef;
+    font-size: 1.2em;
+}
+
+#navegation ul li:hover a {
+    transform: scale(1.5em);
+    color: #0c9ff4c6;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.329);
+}
+
+/* Conteúdo */
+#conteudo {
+    height: 100%;
+    margin-top: 3em;
+}
+
+#conteudo h1 {
+    text-align: center;
+}
+
+#main-content img {
+    margin-top: 2em;
+    width: 500px;
+    margin-left: 7em;
+    margin-right: 2em;
+}
